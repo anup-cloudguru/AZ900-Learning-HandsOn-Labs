@@ -35,6 +35,19 @@ Cloud deployment models define how cloud services are hosted and accessed. There
 
 ---
 
+### **Comparison of Cloud Deployment Models**  
+Here’s a table summarizing the differences between public, private, and hybrid clouds:  
+
+| **Feature**            | **Public Cloud**                  | **Private Cloud**                | **Hybrid Cloud**                |  
+|-------------------------|-----------------------------------|----------------------------------|---------------------------------|  
+| **Cost**               | Pay-as-you-go, no CapEx           | High CapEx, ongoing maintenance  | Combines CapEx and OpEx         |  
+| **Control**            | Limited control                   | Full control                     | Partial control                 |  
+| **Scalability**        | Highly scalable                   | Limited scalability              | Scalable for specific workloads |  
+| **Security**           | Shared security                   | Enhanced security                | Flexible security               |  
+| **Use Case**           | General-purpose workloads         | Sensitive data, compliance       | Bursting, disaster recovery     |  
+
+---
+
 ### **Key Benefits of Cloud Computing**  
 
 #### **1. High Availability and Fault Tolerance**  
@@ -70,6 +83,30 @@ Cloud deployment models define how cloud services are hosted and accessed. There
 - **Tools**:  
   - **Pricing Calculator**: Estimate the cost of Azure services.  
   - **TCO (Total Cost of Ownership)**: Compare on-premises costs with cloud costs.  
+
+---
+
+### **Graphics for Visualization**  
+
+#### **1. Cloud Deployment Models Diagram**  
+You can insert a diagram like this:  
+```
+Public Cloud       Private Cloud       Hybrid Cloud  
+[Shared Resources] [Dedicated Resources] [Combination of Both]  
+```  
+- **Public Cloud**: Show multiple users accessing shared resources.  
+- **Private Cloud**: Show a single organization accessing dedicated resources.  
+- **Hybrid Cloud**: Show a mix of public and private resources connected together.  
+
+#### **2. Scalability vs. Elasticity**  
+You can insert a graph showing:  
+- **Scalability**: A step graph showing resources increasing in fixed increments.  
+- **Elasticity**: A smooth curve showing resources scaling up and down dynamically based on demand.  
+
+#### **3. High Availability Architecture**  
+You can insert a diagram showing:  
+- A load balancer distributing traffic across multiple servers.  
+- Replicated databases (primary and secondary) ensuring data redundancy.  
 
 ---
 
