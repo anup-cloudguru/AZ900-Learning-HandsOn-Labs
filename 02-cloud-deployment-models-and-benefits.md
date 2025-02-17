@@ -86,34 +86,6 @@ Here’s a table summarizing the differences between public, private, and hybrid
 
 ---
 
-### **Graphics for Visualization**  
-
-#### **1. Cloud Deployment Models Diagram**  
-```
-Public Cloud       Private Cloud       Hybrid Cloud  
-[Shared Resources] [Dedicated Resources] [Combination of Both]  
-```  
-- **Public Cloud**: Show multiple users accessing shared resources.  
-- **Private Cloud**: Show a single organization accessing dedicated resources.  
-- **Hybrid Cloud**: Show a mix of public and private resources connected together.  
-
-#### **2. Scalability vs. Elasticity**  
-You can insert a graph showing:  
-- **Scalability**: A step graph showing resources increasing in fixed increments.  
-- **Elasticity**: A smooth curve showing resources scaling up and down dynamically based on demand.  
-
-#### **3. High Availability Architecture**  
-You can insert a diagram showing:  
-- A load balancer distributing traffic across multiple servers.  
-- Replicated databases (primary and secondary) ensuring data redundancy.  
-
----
-
-### **Real-World Example**:  
-- **Netflix**: Uses cloud computing for global streaming, scaling resources automatically to handle millions of simultaneous users. The cloud's elasticity ensures seamless performance during peak viewing times.  
-
----
-
 ### **Summary**  
 - **Public Cloud**: Shared, cost-effective, and scalable.  
 - **Private Cloud**: Dedicated, secure, and customizable.  
