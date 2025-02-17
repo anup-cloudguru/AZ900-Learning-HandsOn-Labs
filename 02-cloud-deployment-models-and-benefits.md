@@ -89,7 +89,6 @@ Here’s a table summarizing the differences between public, private, and hybrid
 ### **Graphics for Visualization**  
 
 #### **1. Cloud Deployment Models Diagram**  
-You can insert a diagram like this:  
 ```
 Public Cloud       Private Cloud       Hybrid Cloud  
 [Shared Resources] [Dedicated Resources] [Combination of Both]  
