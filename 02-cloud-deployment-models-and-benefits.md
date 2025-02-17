@@ -1,4 +1,4 @@
-## **Chapter 2: Cloud Models and Benefits**  
+## **Chapter 2: Cloud Deployment Models and Benefits**  
 
 ### **Cloud Deployment Models**  
 Cloud deployment models define how cloud services are hosted and accessed. There are three primary models, each catering to different business needs and use cases.  
