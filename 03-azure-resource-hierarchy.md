@@ -45,8 +45,7 @@ Azure organizes resources (e.g., virtual machines, databases) in a hierarchical 
 ---
 
 ### **Hierarchy Visualization**  
-You can add a diagram like this:  
-```  
+  
 Azure Account  
 │  
 └── Management Groups (Optional)  
