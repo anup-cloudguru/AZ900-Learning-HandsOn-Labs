@@ -113,61 +113,61 @@ Permissions and policies applied at higher levels in the hierarchy **trickle dow
 Test your understanding with the following questions:  
 
 1) **Management groups provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions.**  
-   - ☐ True  
-   - ☐ False  
+   ☐ True  
+   ☐ False  
 
 2) **Your company plans to migrate to Azure. The company has several departments, and each department's resources will be managed by a department administrator.**  
    **What are two possible techniques to segment Azure for the departments?** *(Each correct answer presents a complete solution.)*  
-   - ☐ A. Multiple subscriptions  
-   - ☐ B. Multiple Azure Active Directory (Azure AD) directories  
-   - ☐ C. Multiple regions  
-   - ☐ D. Multiple resource groups  
+   ☐ A. Multiple subscriptions  
+   ☐ B. Multiple Azure Active Directory (Azure AD) directories  
+   ☐ C. Multiple regions  
+   ☐ D. Multiple resource groups  
 
 3) **A single Microsoft account can be used to manage multiple Azure subscriptions?**  
-   - ☐ Yes  
-   - ☐ No  
+   ☐ Yes  
+   ☐ No  
 
 4) **Two Azure subscriptions can be merged into a single subscription?**  
-   - ☐ Yes  
-   - ☐ No  
+   ☐ Yes  
+   ☐ No  
 
 5) **You have several virtual machines in an Azure subscription, and you created a new subscription. Which of the following statements are correct?**  
-   - ☐ VM cannot be moved to a new subscription. **(True/False)**  
-   - ☐ VM can be moved to a new subscription. **(True/False)**  
-   - ☐ All VMs can be moved if they are running in the same resource group. **(True/False)**  
-   - ☐ VM can be moved if they run Windows Server 2016. **(True/False)**  
-   - ☐ An Azure resource group can contain multiple Azure subscriptions. **(True/False)**  
+   ☐ VM cannot be moved to a new subscription. **(True/False)**  
+   ☐ VM can be moved to a new subscription. **(True/False)**  
+   ☐ All VMs can be moved if they are running in the same resource group. **(True/False)**  
+   ☐ VM can be moved if they run Windows Server 2016. **(True/False)**  
+   ☐ An Azure resource group can contain multiple Azure subscriptions. **(True/False)**  
 
 6) **If you assign permissions for a user to manage the resource group, the user can manage all the Azure resources in that resource group.**  
-   - ☐ True  
-   - ☐ False  
+   ☐ True  
+   ☐ False  
 
 7) **If you delete a resource group, all resources inside that resource group will be deleted.**  
-   - ☐ True  
-   - ☐ False  
+   ☐ True  
+   ☐ False  
 
 ---  
 
 ### **Answers & Explanations**  
 
 1) **[✔] True**  
-   - **Explanation**: **Management Groups** help organizations apply policies and compliance settings across multiple Azure subscriptions. This is useful for enforcing security and governance rules at scale.  
+   **Explanation**: **Management Groups** help organizations apply policies and compliance settings across multiple Azure subscriptions. This is useful for enforcing security and governance rules at scale.  
 
 2) **[✔] A. Multiple subscriptions** & **[✔] D. Multiple resource groups**  
-   - **Explanation**: Using **multiple subscriptions** allows departments to have separate billing and access controls. **Resource Groups** help logically organize and manage related resources, making it easier for department administrators to manage their own resources.  
+   **Explanation**: Using **multiple subscriptions** allows departments to have separate billing and access controls. **Resource Groups** help logically organize and manage related resources, making it easier for department administrators to manage their own resources.  
 
 3) **[✔] Yes**  
-   - **Explanation**: A single Microsoft account can be used to manage **multiple Azure subscriptions**, which is useful for organizations with different billing needs or environments (e.g., development, testing, production).  
+   **Explanation**: A single Microsoft account can be used to manage **multiple Azure subscriptions**, which is useful for organizations with different billing needs or environments (e.g., development, testing, production).  
 
 4) **[✘] No**  
-   - **Explanation**: Two Azure subscriptions **cannot be merged**. However, you can **move some resources** from one subscription to another. Each subscription remains independent.  
+   **Explanation**: Two Azure subscriptions **cannot be merged**. However, you can **move some resources** from one subscription to another. Each subscription remains independent.  
 
 5)  
-   - **[✘] VM cannot be moved to a new subscription. (False)**  
-   - **[✔] VM can be moved to a new subscription. (True)**  
-   - **[✘] All VMs can be moved if they are running in the same resource group. (False)**  
-   - **[✘] VM can be moved if they run Windows Server 2016. (False)**  
-   - **[✘] An Azure resource group can contain multiple Azure subscriptions. (False)**  
+   **[✘] VM cannot be moved to a new subscription. (False)**  
+   **[✔] VM can be moved to a new subscription. (True)**  
+   **[✘] All VMs can be moved if they are running in the same resource group. (False)**  
+   **[✘] VM can be moved if they run Windows Server 2016. (False)**  
+   **[✘] An Azure resource group can contain multiple Azure subscriptions. (False)**  
 
    **Explanation**:  
    - VMs **can be moved** to a new subscription, but **there are restrictions** (e.g., the resource provider must support the move).  
@@ -176,9 +176,9 @@ Test your understanding with the following questions:
    - **Resource Groups** belong to a **single subscription**; they **cannot span multiple subscriptions**.  
 
 6) **[✔] True**  
-   - **Explanation**: If a user has **permissions at the Resource Group level**, they can manage **all resources** inside that group. Azure **Role-Based Access Control (RBAC)** lets you assign permissions at different levels (Subscription, Resource Group, or individual resource).  
+   **Explanation**: If a user has **permissions at the Resource Group level**, they can manage **all resources** inside that group. Azure **Role-Based Access Control (RBAC)** lets you assign permissions at different levels (Subscription, Resource Group, or individual resource).  
 
 7) **[✔] True**  
-   - **Explanation**: Deleting a **Resource Group** permanently deletes **all the resources inside it**, such as VMs, storage accounts, and databases. **Be cautious** when deleting a Resource Group, as this action **cannot be undone**.  
+   **Explanation**: Deleting a **Resource Group** permanently deletes **all the resources inside it**, such as VMs, storage accounts, and databases. **Be cautious** when deleting a Resource Group, as this action **cannot be undone**.  
 
 ---
