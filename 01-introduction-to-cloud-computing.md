@@ -204,6 +204,11 @@ Test your understanding with the following questions:
 
 ---
 
-### **8. Next Steps**
+### **8. Essential Cloud & Azure Terms**  
+For a comprehensive list of key cloud and Azure terms, check out **[Essential Cloud & Azure Terms](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/blob/main/00-glossary.md)**.
+
+---
+
+### **9. Next Steps**
 
 In **Chapter 2**, we will dive deeper into Cloud Service Models and explore the benefits of cloud computing in greater detail, focusing on how these services can be optimized within Azure’s ecosystem.
