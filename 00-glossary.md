@@ -1,6 +1,6 @@
-# AZ-900 Glossary of Key Terms  
+# Essential Cloud & Azure Terms  
 
-*A collection of essential cloud computing terms to help with AZ-900 certification preparation.*  
+*A collection of essential cloud and Azure computing terms to help understand fundamental concepts.*  
 
 ---
 
