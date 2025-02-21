@@ -59,7 +59,7 @@ Cloud services are generally delivered in one of three models:
 - **What It Is:** Offers a platform and environment for developers to build applications without managing the underlying infrastructure.
 - **Control:** You manage your applications and data, while the provider manages the OS, runtime, and middleware.
 - **Example:** Azure App Service.
-- **Use Case:** A startup developing a mobile app can use Google App Engine or Heroku to build and deploy their app. The developers focus only on coding while the platform handles the servers, storage, and networking.
+- **Use Case:** A startup developing a mobile app can use Azure App Service or Google App Engine to build and deploy their app. The developers focus only on coding while the platform handles the servers, storage, and networking.
 
 #### **Software as a Service (SaaS)**
 - **What It Is:** Delivers software applications over the internet on a subscription basis.
