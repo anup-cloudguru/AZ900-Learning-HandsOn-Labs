@@ -65,7 +65,7 @@ Cloud services are generally delivered in one of three models:
 - **What It Is:** Delivers software applications over the internet on a subscription basis.
 - **Control:** Minimal control; you simply use the application.
 - **Example:** Office 365, Gmail.
-- **Use Case:** Google Docs, Dropbox, or Microsoft Outlook are great examples of SaaS. Users can access them from any device without installing software or managing updates—the provider takes care of everything..
+- **Use Case:** Google Docs, Dropbox, or Microsoft Outlook are great examples of SaaS. Users can access them from any device without installing software or managing updates—the provider takes care of everything.
 
 | **Service Model** | **You Manage**                     | **Provider Manages**                             | **Typical Use Case**                       |
 |-------------------|------------------------------------|--------------------------------------------------|--------------------------------------------|
