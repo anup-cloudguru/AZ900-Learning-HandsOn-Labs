@@ -1,4 +1,4 @@
-## **Chapter 1: Introduction to Cloud Computing**
+## **Chapter 1: Introduction to Cloud Computing**  
 
 Welcome to the first chapter of the AZ-900 fundamentals series. This chapter introduces core cloud concepts, laying the groundwork for your journey toward the AZ-900 certification. Whether you're new to Azure or IT in general, this chapter is designed to be beginner-friendly.
 
