@@ -21,13 +21,15 @@ In this chapter, our focus is on **Cloud Concepts**. We’ll explain:
 
 ---
 
-### **2. What Is Cloud Computing?**
+### **2. What Is Cloud Computing?**  
 
-Cloud computing allows businesses and individuals to access computing resources (servers, storage, databases, networking, software) over the internet instead of purchasing and maintaining physical hardware. This approach provides several advantages:
+Cloud computing provides on-demand access to computing resources—such as servers, storage, databases, networking, and software—over the internet. Instead of investing in and maintaining physical infrastructure, businesses can leverage cloud services on a pay-as-you-go basis.  
 
-- **Scalability:** Easily increase or decrease resources as needed, such as handling a sudden surge in website traffic during a sale event.
-- **Cost Efficiency:** You pay only for what you use, reducing upfront capital costs.
-- **Flexibility:** Access your services from anywhere with an internet connection, enabling remote work and global collaboration.
+This approach offers several advantages:  
+
+- **Scalability:** Easily adjust resources to match demand, ensuring efficiency during peak and low usage periods.  
+- **Cost Efficiency:** Reduce upfront expenses and operational overhead by paying only for what you use.  
+- **Flexibility:** Access services from anywhere with an internet connection, enabling remote work and global collaboration.  
 
 ---
 
