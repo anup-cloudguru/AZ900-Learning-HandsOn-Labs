@@ -23,9 +23,9 @@ In this chapter, our focus is on **Cloud Concepts**. We’ll explain:
 
 ### **2. What Is Cloud Computing?**  
 
-Cloud computing provides on-demand access to computing resources—such as servers, storage, databases, networking, and software—over the internet. Instead of investing in and maintaining physical infrastructure, businesses can leverage cloud services on a pay-as-you-go basis.  
+Cloud computing provides on-demand access to computing resources—such as servers, storage, databases, networking, and software—over the internet. This eliminates the need for businesses to maintain physical infrastructure, replacing large capital expenses with a flexible, pay-as-you-go model.  
 
-This approach offers several advantages:  
+Cloud computing offers several advantages:  
 
 - **Scalability:** Easily adjust resources to match demand, ensuring efficiency during peak and low usage periods.  
 - **Cost Efficiency:** Reduce upfront expenses and operational overhead by paying only for what you use.  
@@ -43,7 +43,7 @@ One of the key benefits of cloud computing is the shift from capital expenditure
 | **Maintenance**     | Customer is responsible for maintenance and upgrades    | Cloud provider handles infrastructure maintenance  |
 | **Scalability**     | Limited by physical hardware                            | Elastic and scalable as needed                     |
 
-This shift reduces the burden of managing physical infrastructure, allowing companies to focus on their core business activities.
+This shift fundamentally changes how organizations allocate IT budgets, moving from heavy upfront investments to a more agile, consumption-based model. It reduces the burden of managing physical infrastructure, allowing companies to focus on their core business activities.
 
 ---
 
@@ -103,7 +103,7 @@ Example: If you migrate an on-premises app to Azure Virtual Machines (IaaS), you
 - Immediate access to cloud scalability and cost efficiency.
 - Reduced downtime compared to re-architecting.
 
-However, **potential drawbacks** include performance inefficiencies if the app is not optimized for the cloud. In some cases, re-architecting might be required to take full advantage of cloud-native features.
+However, potential drawbacks include performance inefficiencies if the app is not optimized for the cloud. Additionally, a lift-and-shift migration may not fully leverage cloud-native features like auto-scaling, serverless computing, or managed services, which could limit long-term efficiency gains. In some cases, re-architecting might be required to take full advantage of cloud-native features.
 
 ---
 
@@ -143,7 +143,7 @@ Test your understanding with the following questions:
    ☐ B. PaaS  
    ☐ C. SaaS  
 
-8) **MSSQL Server 2019 installed on a VM is considered PaaS.**  
+8) **A virtual machine (VM) running MSSQL Server 2019 is considered a PaaS solution.**  
    ☐ True  
    ☐ False  
 
