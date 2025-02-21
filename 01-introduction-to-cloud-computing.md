@@ -23,7 +23,7 @@ In this chapter, our focus is on **Cloud Concepts**. We’ll explain:
 
 ### **2. What Is Cloud Computing?**
 
-Cloud computing is a model for accessing computing resources (servers, storage, databases, networking, software, etc.) over the Internet on an on-demand basis. Instead of purchasing and maintaining expensive hardware, you rent what you need from a cloud provider. This approach enables:
+Cloud computing lets you use powerful computer resources over the internet without buying and maintaining expensive hardware. Instead of purchasing and maintaining expensive hardware, you rent what you need from a cloud provider. This approach enables:
 
 - **Scalability:** Resources can be increased or decreased as needed to meet fluctuating demand, such as handling a sudden surge in website traffic during a sale event.
 - **Cost Efficiency:** You pay only for what you use, helping businesses avoid the high upfront costs of on-premises infrastructure and offering flexibility for startups or small businesses.
