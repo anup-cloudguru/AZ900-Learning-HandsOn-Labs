@@ -79,7 +79,4 @@
 
 ---
 
-### 📚 Want to Learn More?  
-Check out [Microsoft’s official AZ-900 documentation](https://learn.microsoft.com/en-us/certifications/exams/az-900/) for in-depth learning resources.
-
 🚀 *Happy Learning!*
