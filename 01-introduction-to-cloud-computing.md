@@ -53,19 +53,19 @@ Cloud services are generally delivered in one of three models:
 - **What It Is:** Provides virtualized computing resources over the internet.
 - **Control:** Full control over the operating system, middleware, and applications.
 - **Example:** Azure Virtual Machines, AWS EC2.
-- **Use Case:** Ideal when you need customizable computing environments or want to migrate legacy systems to the cloud without re-architecting them.
+- **Use Case:** An e-commerce company running an online store on Amazon EC2 or Microsoft Azure Virtual Machines can scale up during holiday sales and scale down when traffic is low. They don’t have to invest in expensive physical servers.
 
 #### **Platform as a Service (PaaS)**
 - **What It Is:** Offers a platform and environment for developers to build applications without managing the underlying infrastructure.
 - **Control:** You manage your applications and data, while the provider manages the OS, runtime, and middleware.
 - **Example:** Azure App Service.
-- **Use Case:** Ideal for application development when you want to focus on writing code rather than managing infrastructure, and need rapid application development and deployment.
+- **Use Case:** A startup developing a mobile app can use Google App Engine or Heroku to build and deploy their app. The developers focus only on coding while the platform handles the servers, storage, and networking.
 
 #### **Software as a Service (SaaS)**
 - **What It Is:** Delivers software applications over the internet on a subscription basis.
 - **Control:** Minimal control; you simply use the application.
 - **Example:** Office 365, Gmail.
-- **Use Case:** Perfect for end-users who need ready-to-use software without worrying about maintenance or updates, such as email services, CRMs, and productivity tools.
+- **Use Case:** Google Docs, Dropbox, or Microsoft Outlook are great examples of SaaS. Users can access them from any device without installing software or managing updates—the provider takes care of everything..
 
 | **Service Model** | **You Manage**                     | **Provider Manages**                             | **Typical Use Case**                       |
 |-------------------|------------------------------------|--------------------------------------------------|--------------------------------------------|
