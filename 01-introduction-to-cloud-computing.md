@@ -70,8 +70,11 @@ Cloud services are generally delivered in one of three models:
 | **Service Model** | **You Manage**                     | **Provider Manages**                             | **Typical Use Case**                       |
 |-------------------|------------------------------------|--------------------------------------------------|--------------------------------------------|
 | **IaaS**          | OS, middleware, applications       | Physical infrastructure (servers, storage)       | Custom and flexible environments           |
-| **PaaS**          | Applications, data                 | OS, runtime, middleware                           | Rapid application development              |
-| **SaaS**          | Limited configuration/data         | Everything else                                  | End-user software (e.g., email, CRM)         |
+| **PaaS**          | Applications, data                 | OS, runtime, middleware                          | Rapid application development              |
+| **SaaS**          | Limited configuration/data         | Everything else                                  | End-user software (e.g., email, CRM)       |
+
+**IaaS vs. PaaS vs. SaaS**  
+![IaaS vs. PaaS vs. SaaS Diagram - Placeholder](path/to/image.png "IaaS vs. PaaS vs. SaaS")
 
 ---
 
