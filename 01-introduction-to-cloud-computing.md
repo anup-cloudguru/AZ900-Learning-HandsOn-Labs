@@ -77,25 +77,41 @@ Cloud services are generally delivered in one of three models:
 
 ---
 
-### **5. The Shared Responsibility Model**
+### **5. The Shared Responsibility Model**  
 
-Cloud computing operates under a **shared responsibility model** that clearly defines the roles of the cloud provider and the customer.
+Cloud computing operates under a **shared responsibility model** that clearly defines the roles of the cloud provider and the customer.  
 
 - **On-Premises:**  
-  *You manage everything—from physical infrastructure to applications.*
+  *You manage everything—from physical infrastructure to applications.*  
 
-- **Cloud Computing:**
+- **Cloud Computing:**  
   - **IaaS:**  
     - **Provider:** Physical hardware, networking, and data center facilities.  
-    - **Customer:** Operating system, middleware, applications, and data.
+    - **Customer:** Operating system, middleware, applications, and data.  
   - **PaaS:**  
     - **Provider:** Underlying infrastructure, operating system, runtime, and middleware.  
-    - **Customer:** Application and data.
+    - **Customer:** Application and data.  
   - **SaaS:**  
     - **Provider:** Almost all aspects of the application, from infrastructure to software updates.  
-    - **Customer:** Only data and user-specific configurations.
+    - **Customer:** Only data and user-specific configurations.  
 
-*Example:* When migrating an on-premises application to Azure Virtual Machines (IaaS), you retain control over the operating system and the application, while Azure manages the underlying hardware and networking.
+#### **Responsibilities Breakdown**  
+
+| Feature          | On-Premises 🏢 | IaaS 🏗️ | PaaS 🏢 | SaaS 🌐 |  
+|-----------------|--------------|--------|--------|--------|  
+| **Data & Access** | 🟩 | 🟩 | 🟩 | 🟩 |  
+| **Applications** | 🟩 | 🟩 | 🟩 | 🟦 |  
+| **Runtime** | 🟩 | 🟩 | 🟦 | 🟦 |  
+| **Operating System** | 🟩 | 🟩 | 🟦 | 🟦 |  
+| **Virtual Machine** | 🟩 | 🟩 | 🟦 | 🟦 |  
+| **Compute** | 🟩 | 🟦 | 🟦 | 🟦 |  
+| **Networking** | 🟩 | 🟦 | 🟦 | 🟦 |  
+| **Storage** | 🟩 | 🟦 | 🟦 | 🟦 |  
+
+🟩 = **You Manage**  
+🟦 = **Cloud Provider Manages**  
+
+💡 **Example:** When migrating an on-premises application to Azure Virtual Machines (IaaS), you retain control over the operating system and the application, while Azure manages the underlying hardware and networking.  
 
 ---
 
