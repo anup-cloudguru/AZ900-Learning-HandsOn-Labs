@@ -73,7 +73,7 @@ Cloud services are generally delivered in one of three models:
 | **SaaS**          | Limited configuration/data    | Everything else                          | End-user software (e.g., email, CRM)          |
 
 *IaaS vs. PaaS vs. SaaS Diagram*  
-![IaaS vs. PaaS vs. SaaS Diagram](path/to/image.png "IaaS vs. PaaS vs. SaaS")  
+![IaaS vs. PaaS vs. SaaS Diagram](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/blob/main/images/iaas-paas-saas.png)  
 
 ---
 
