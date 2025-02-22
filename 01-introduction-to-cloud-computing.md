@@ -97,18 +97,21 @@ Cloud computing operates under a **shared responsibility model** that clearly de
 
 #### **Responsibilities Breakdown**  
 
-| Feature          | On-Premises 🏢 | IaaS 🏗️ | PaaS 🏢 | SaaS 🌐 |  
-|-----------------|--------------|--------|--------|--------|  
-| **Data & Access** | 🟩 | 🟩 | 🟩 | 🟩 |  
-| **Applications** | 🟩 | 🟩 | 🟩 | 🟦 |  
-| **Runtime** | 🟩 | 🟩 | 🟦 | 🟦 |  
-| **Operating System** | 🟩 | 🟩 | 🟦 | 🟦 |  
-| **Virtual Machine** | 🟩 | 🟩 | 🟦 | 🟦 |  
-| **Compute** | 🟩 | 🟦 | 🟦 | 🟦 |  
-| **Networking** | 🟩 | 🟦 | 🟦 | 🟦 |  
-| **Storage** | 🟩 | 🟦 | 🟦 | 🟦 |  
+| Feature                        | On-Premises 🏢 | IaaS 🏗️ | PaaS 🏢 | SaaS 🌐 |  
+|--------------------------------|--------------|--------|--------|--------|  
+| **Information/Data**           | 🟩 | 🟩 | 🟩 | 🟩 |  
+| **Devices (Mobiles/PCs)**      | 🟩 | 🟩 | 🟩 | 🟩 |  
+| **Accounts and Identities**    | 🟩 | 🟩 | 🟩 | 🟩 |  
+| **Identity & Directory Infrastructure** | 🟩 | 🟩 | 🟨 | 🟨 |  
+| **Applications**               | 🟩 | 🟩 | 🟩 | 🟦 |  
+| **Network Controls**           | 🟩 | 🟩 | 🟨 | 🟦 |  
+| **Operating System**           | 🟩 | 🟩 | 🟦 | 🟦 |  
+| **Physical Host**              | 🟩 | 🟦 | 🟦 | 🟦 |  
+| **Physical Network**           | 🟩 | 🟦 | 🟦 | 🟦 |  
+| **Physical Datacenter**        | 🟩 | 🟦 | 🟦 | 🟦 |  
 
 🟩 = **You Manage**  
+🟨 = **Shared Responsibility**  
 🟦 = **Cloud Provider Manages**  
 
 💡 **Example:** When migrating an on-premises application to Azure Virtual Machines (IaaS), you retain control over the operating system and the application, while Azure manages the underlying hardware and networking.  
