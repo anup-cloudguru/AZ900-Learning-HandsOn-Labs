@@ -1,11 +1,12 @@
 ## **Chapter 2: Cloud Deployment Models and Benefits**  
 
-### **Cloud Deployment Models**  
 Cloud deployment models define how cloud services are hosted and accessed. Each model caters to different business needs, balancing cost, control, and scalability.  
 
----
+---  
 
-#### **1. Public Cloud**  
+### **1. Cloud Deployment Models**  
+
+#### **Public Cloud**  
 - **Definition**: Services are provided over the internet and shared across multiple organizations.  
 - **Key Features**:  
   - **No CapEx**: No upfront costs for hardware or infrastructure.  
@@ -16,9 +17,9 @@ Cloud deployment models define how cloud services are hosted and accessed. Each 
 - **Analogy**: Like renting a bus seat—shared, cost-effective, no ownership.  
 - **Use Case**: A startup uses Azure to host its app, scaling from 1 to 100 servers during peak demand.  
 
----
+---  
 
-#### **2. Private Cloud**  
+#### **Private Cloud**  
 - **Definition**: Dedicated infrastructure for a single organization, hosted on-premises or by a third party.  
 - **Key Features**:  
   - **Full Control**: Customize hardware/software (e.g., strict compliance for healthcare data).  
@@ -28,9 +29,9 @@ Cloud deployment models define how cloud services are hosted and accessed. Each 
 - **Analogy**: Like owning a car—expensive but fully customizable.  
 - **Use Case**: A hospital hosts patient records on a private cloud to comply with HIPAA regulations.  
 
----
+---  
 
-#### **3. Hybrid Cloud**  
+#### **Hybrid Cloud**  
 - **Definition**: Combines public and private clouds for shared data/applications.  
 - **Key Features**:  
   - **Flexibility**: Keep sensitive data private (e.g., customer databases) while using public cloud for scalable workloads (e.g., web servers).  
@@ -41,9 +42,10 @@ Cloud deployment models define how cloud services are hosted and accessed. Each 
   - **Disaster Recovery**: Backup on-premises data to Azure Blob Storage.  
 - **Analogy**: Drive your car for daily commutes but use public transport for long trips.  
 
----
+---  
 
-### **Comparison of Cloud Deployment Models**  
+### **2. Comparison of Cloud Deployment Models**  
+
 | **Feature**       | **Public Cloud**                  | **Private Cloud**                | **Hybrid Cloud**                |  
 |--------------------|-----------------------------------|----------------------------------|---------------------------------|  
 | **Cost**           | Pay-as-you-go, no CapEx           | High CapEx, ongoing maintenance  | Combines CapEx + OpEx           |  
@@ -52,11 +54,11 @@ Cloud deployment models define how cloud services are hosted and accessed. Each 
 | **Security**       | Shared responsibility             | Enhanced (isolated resources)    | Flexible (data placement)       |  
 | **Best For**       | Startups, general-purpose apps    | Regulated industries (e.g., healthcare) | Bursting, disaster recovery |  
 
----
+---  
 
-### **Key Benefits of Cloud Computing**  
+### **3. Key Benefits of Cloud Computing**  
 
-#### **1. High Availability and Fault Tolerance**  
+#### **High Availability and Fault Tolerance**  
 - **Definition**: Applications stay online despite failures.  
 - **How It Works**:  
   - **Load Balancers**: Distribute traffic across VMs (e.g., Azure Load Balancer).  
@@ -64,7 +66,7 @@ Cloud deployment models define how cloud services are hosted and accessed. Each 
   - **Redundancy**: Deploy VMs in multiple Availability Zones.  
 - **Example**: Netflix uses AWS to reroute traffic if a server fails.  
 
-#### **2. Scalability**  
+#### **Scalability**  
 - **Vertical Scaling**: Upgrade VM size (e.g., from 2 vCPUs to 8 vCPUs).  
   - *Pros*: Simple.  
   - *Cons*: Requires downtime.  
@@ -72,11 +74,11 @@ Cloud deployment models define how cloud services are hosted and accessed. Each 
   - *Pros*: Zero downtime.  
   - *Cons*: Needs load balancing.  
 
-#### **3. Elasticity**  
+#### **Elasticity**  
 - **Auto-Scaling**: Azure VM Scale Sets add/remove VMs based on CPU usage.  
 - **Cost Savings**: Shut down unused VMs at night to reduce costs.  
 
-#### **4. Cost-Effectiveness**  
+#### **Cost-Effectiveness**  
 - **Pricing Models**:  
   - **Pay-as-You-Go**: Ideal for unpredictable workloads.  
   - **Reserved Instances**: Save 40% with 1-3 year commitments.  
@@ -85,9 +87,10 @@ Cloud deployment models define how cloud services are hosted and accessed. Each 
   - **Azure Pricing Calculator**: Estimate costs for VMs, storage, etc.  
   - **TCO Calculator**: Compare on-premises vs. cloud costs.  
 
----
+---  
 
-### **Knowledge Check**  
+### **4. Knowledge Check**  
+
 Test your understanding with these AZ-900 style questions:  
 
 1) **A company wants to host a customer database with strict compliance requirements. Which deployment model should they use?**  
@@ -114,9 +117,10 @@ Test your understanding with these AZ-900 style questions:
    ☐ B. Azure Pricing Calculator  
    ☐ C. TCO Calculator  
 
----
+---  
 
-### **Answers & Explanations**  
+### **5. Answers & Explanations**  
+
 1) **[✔] B. Private Cloud**  
    *Explanation*: Private clouds offer isolated infrastructure for compliance-sensitive data.  
 
@@ -132,21 +136,14 @@ Test your understanding with these AZ-900 style questions:
 5) **[✔] B. Azure Pricing Calculator**  
    *Explanation*: This tool estimates costs for specific Azure services.  
 
----
+---  
 
-### **Graphics Suggestions**  
-1. **Hybrid Cloud Architecture**:  
-   ```  
-   [On-Premises Server] ↔ [Azure VPN Gateway] ↔ [Azure Virtual Network]  
-   ```  
-2. **Scalability vs. Elasticity**:  
-   - *Scalability*: Step graph showing manual scaling.  
-   - *Elasticity*: Smooth curve showing automatic scaling.  
+### **6. Essential Cloud & Azure Terms**  
 
----
+For a comprehensive list of key cloud and Azure terms, please refer to the [Essential Cloud & Azure Terms](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/blob/main/00-glossary.md).  
 
-### **Summary**  
-- **Public Cloud**: Best for cost efficiency and scalability (e.g., startups).  
-- **Private Cloud**: Ideal for security/compliance (e.g., healthcare).  
-- **Hybrid Cloud**: Balances control and flexibility (e.g., disaster recovery).  
-- **Key Benefits**: High availability, elasticity, and reduced TCO.
+---  
+
+### **7. Next Steps**  
+
+In **Chapter 3**, we will explore the fundamentals of Azure Compute Services, covering Virtual Machines, Containers, and Serverless Computing.
