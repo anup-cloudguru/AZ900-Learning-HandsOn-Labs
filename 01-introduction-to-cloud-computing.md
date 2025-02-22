@@ -103,7 +103,7 @@ Cloud computing operates under a **shared responsibility model** that clearly de
 | **Devices (Mobiles/PCs)**      | 🟩 | 🟩 | 🟩 | 🟩 |  
 | **Accounts and Identities**    | 🟩 | 🟩 | 🟩 | 🟩 |  
 | **Identity & Directory Infrastructure** | 🟩 | 🟩 | 🟨 | 🟨 |  
-| **Applications**               | 🟩 | 🟩 | 🟩 | 🟦 |  
+| **Applications**               | 🟩 | 🟩 | 🟨 | 🟦 |  
 | **Network Controls**           | 🟩 | 🟩 | 🟨 | 🟦 |  
 | **Operating System**           | 🟩 | 🟩 | 🟦 | 🟦 |  
 | **Physical Host**              | 🟩 | 🟦 | 🟦 | 🟦 |  
