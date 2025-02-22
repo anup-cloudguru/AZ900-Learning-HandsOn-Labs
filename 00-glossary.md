@@ -1,7 +1,3 @@
-Here’s your updated `glossary.md` with the new terms integrated:  
-
----
-
 # **Essential Cloud & Azure Terms**  
 
 *A collection of essential cloud and Azure computing terms to help understand fundamental concepts.*  
@@ -111,10 +107,4 @@ Here’s your updated `glossary.md` with the new terms integrated:
 - **Azure Arc**  
   A hybrid cloud management tool that allows managing on-premises, multi-cloud, and edge environments from Azure.  
 
----  
-
-🚀 *Happy Learning!*  
-
 ---
-
-This update ensures that your glossary is aligned with **Chapter 2: Cloud Deployment Models and Benefits** while keeping it structured and easy to read. Let me know if you need any refinements! 🚀
