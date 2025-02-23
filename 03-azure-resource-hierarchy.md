@@ -1,52 +1,79 @@
 ## **Chapter 3: Azure Resource Hierarchy**  
 
-### **What is Azure Resource Hierarchy?**  
-Azure organizes resources (e.g., virtual machines, databases) in a hierarchical structure to simplify management, billing, and governance. This hierarchy ensures logical grouping and inheritance of policies, permissions, and configurations.  
+Azure organizes resources (e.g., virtual machines, databases) in a **hierarchical structure** to simplify **management, billing, and governance**. This hierarchy ensures **logical grouping and inheritance** of policies, permissions, and configurations.  
+
+---  
+
+### **1. Overview of Azure Resource Hierarchy**  
+
+Azure follows a **top-down approach**, where policies and access control **cascade from higher levels to lower levels**. The hierarchy consists of:  
+
+- **Azure Account** (Root level)  
+- **Management Groups** (Optional but useful for organizing multiple subscriptions)  
+- **Subscriptions** (Billing and governance boundaries)  
+- **Resource Groups** (Logical grouping of related resources)  
+- **Resources** (Individual Azure services like VMs, databases, and storage)  
+
+In this chapter, we’ll explore **each component** in detail and **how they interact**.  
 
 ---
 
-### **Components of Azure Resource Hierarchy**  
+### **2. Components of Azure Resource Hierarchy**  
 
-#### **1. Azure Account**  
-- **Definition**: The root level of Azure resources. Created when signing up for Azure.  
-- **Key Role**:  
-  - Tied to a Microsoft account (e.g., Outlook, Hotmail) or organizational account.  
-  - Automatically creates a **default subscription** upon signup.  
-- **Example**: A company’s Azure account for managing all cloud resources.  
-
-#### **2. Management Groups**  
-- **Definition**: Containers to organize multiple subscriptions.  
+#### **2.1 Azure Account**  
+- **Definition**: The **root level** of Azure resources, created upon signing up for Azure.  
 - **Key Features**:  
-  - **Optional**: Not mandatory but highly recommended for large organizations.  
-  - **Hierarchy**: Create nested management groups (e.g., Root → HR → Dev/Prod).  
-  - **Policy Inheritance**: Permissions/policies applied at the root level cascade to child subscriptions.  
-- **Use Case**: Group subscriptions by department (e.g., Finance, IT).  
+  - Tied to a **Microsoft account** (e.g., Outlook, Hotmail) or an **organizational account**.  
+  - **Automatically creates a default subscription** upon signup.  
+- **Use Case**: A company’s **Azure account** manages **all cloud resources** for its organization.  
 
-#### **3. Subscriptions**  
-- **Definition**: Billing and governance boundaries for resources.  
+---
+
+#### **2.2 Management Groups**  
+- **Definition**: Containers used to **organize multiple subscriptions** for better governance.  
 - **Key Features**:  
-  - **Mandatory**: At least one subscription is required.  
-  - **Multiple Subscriptions**: Organizations often use separate subscriptions for billing, environments (Dev/Prod), or departments.  
-  - **Example**: A company uses one subscription for Sales and another for IT.  
+  - **Optional** but useful for large organizations.  
+  - Supports **nested hierarchy** (e.g., Root → HR → Dev/Prod).  
+  - **Policy Inheritance**: Permissions applied at the **root level** cascade down to **child subscriptions**.  
+- **Use Case**: Group subscriptions by **department** (e.g., Finance, IT).  
 
-#### **4. Resource Groups**  
-- **Definition**: Logical containers for grouping related resources.  
-- **Key Rules**:  
-  - A resource can belong to **only one** resource group.  
-  - Resource groups cannot be nested.  
+---
+
+#### **2.3 Subscriptions**  
+- **Definition**: Define **billing and governance boundaries** for Azure resources.  
+- **Key Features**:  
+  - **Mandatory**: At least **one subscription** is required per account.  
+  - **Supports multiple subscriptions** for better cost and access control.  
+  - Used to separate **environments** (e.g., Dev/Prod) or **departments** (Sales, IT).  
+- **Example**: A company may use:  
+  - **Subscription 1**: "Sales"  
+  - **Subscription 2**: "IT"  
+
+---
+
+#### **2.4 Resource Groups**  
+- **Definition**: **Logical containers** that group related Azure resources.  
+- **Key Features**:  
+  - A **resource can belong to only one resource group**.  
+  - Resource Groups **cannot be nested**.  
+  - **Policies and permissions at the resource group level** apply to all resources within it.  
 - **Use Cases**:  
-  - Separate environments (e.g., Dev, UAT, Prod).  
-  - Group resources by application (e.g., Web App + Database).  
-
-#### **5. Resources**  
-- **Definition**: Individual services deployed in Azure (e.g., VM, storage account, web app).  
-- **Key Role**: The smallest unit in the hierarchy.  
+  - Separate **environments** (Dev, UAT, Prod).  
+  - Group resources by **application** (e.g., Web App + Database).  
 
 ---
 
-### **Hierarchy Visualization**  
+#### **2.5 Resources**  
+- **Definition**: Individual services deployed in Azure (e.g., **VMs, storage accounts, web apps**).  
+- **Key Features**:  
+  - The **smallest unit** in the Azure hierarchy.  
+  - Each resource must belong to **a single resource group**.  
 
-```    
+---
+
+### **3. Azure Resource Hierarchy Visualization**  
+
+```
 Azure Account  
 │  
 └── Management Groups (Optional)  
@@ -63,136 +90,93 @@ Azure Account
     │  
     └── Subscription 2 (e.g., Prod)  
         ├── Resource Group C  
-        └── Resource Group D    
+        └── Resource Group D  
 ```  
 
 ---
 
-### **Permissions and Inheritance**  
-Permissions and policies applied at higher levels in the hierarchy **trickle down** to child components.  
+### **4. Permissions & Policy Inheritance**  
 
-| **Level**            | **Policy Example**                | **Inheritance**                                  |  
-|-----------------------|------------------------------------|-------------------------------------------------|  
-| **Management Group**  | Deny public network access.       | Applies to all subscriptions under it.          |  
-| **Subscription**      | Enforce cost limits.              | Applies to all resource groups in the subscription. |  
-| **Resource Group**    | Restrict VM size.                 | Applies to all resources in the group.           |  
+Azure follows a **top-down approach** for **permissions and policies**:  
 
-#### **Example**:  
-- A "deny public IP creation" policy at the **subscription level** blocks all resource groups under it from creating public IPs.  
+| **Hierarchy Level**   | **Policy Example**                   | **Inheritance**                                 |  
+|----------------------|------------------------------------|-----------------------------------------------|  
+| **Management Group** | Deny public network access        | Applies to all subscriptions under it        |  
+| **Subscription**     | Enforce cost limits               | Applies to all resource groups in the subscription |  
+| **Resource Group**   | Restrict VM size                  | Applies to all resources in the group        |  
 
----
-
-### **Key Use Cases**  
-
-#### **1. Logical Separation**  
-- **Dev vs. Prod**: Use separate resource groups for development and production environments.  
-- **Departmental Isolation**: Assign subscriptions to departments (e.g., Sales, IT).  
-
-#### **2. Cost Management**  
-- Track spending per subscription or resource group.  
-- Apply budget alerts at the subscription level.  
-
-#### **3. Security Governance**  
-- Assign permissions at the management group level to streamline access control.  
-- Enforce compliance policies (e.g., encryption standards) across subscriptions.  
+💡 **Example**: A **"deny public IP creation" policy** applied at the **subscription level** prevents **all resource groups under it** from creating public IPs.  
 
 ---
 
-### **Real-World Example**  
-- **Contoso Corporation**:  
-  - **Root Management Group**: "Contoso"  
-    - **Child Management Group**: "Finance" (with subscriptions for payroll and budgeting).  
-    - **Child Management Group**: "IT" (with subscriptions for Dev, UAT, and Prod environments).  
+### **5. Key Use Cases**  
+
+✅ **Logical Separation**  
+- **Dev vs. Prod**: Use separate **resource groups** for **development** and **production**.  
+- **Departmental Isolation**: Assign **subscriptions** to different **departments** (Sales, IT).  
+
+✅ **Cost Management**  
+- Track **spending per subscription** or **resource group**.  
+- Apply **budget alerts** at the **subscription level**.  
+
+✅ **Security Governance**  
+- Assign **permissions** at the **management group level** to streamline access control.  
+- Enforce **compliance policies** (e.g., **encryption standards**) across **subscriptions**.  
+
+---
+
+### **6. Real-World Example: Contoso Corporation**  
+
+Contoso Corporation uses **Azure Resource Hierarchy** as follows:  
+
+📌 **Root Management Group**: "Contoso"  
+  - **Child Management Group**: "Finance" (Subscriptions for Payroll & Budgeting).  
+  - **Child Management Group**: "IT" (Subscriptions for Dev, UAT, and Prod).  
   - **Resource Groups**:  
-    - Under "IT-Dev" subscription: "WebApp-Dev," "Database-Dev."  
+    - Under **"IT-Dev" subscription**: "WebApp-Dev," "Database-Dev."  
 
 ---
 
-### **Essential Cloud & Azure Terms**  
+### **7. Essential Cloud & Azure Terms**  
 
 For a comprehensive list of key cloud and Azure terms, please refer to the [Essential Cloud & Azure Terms](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/blob/main/00-glossary.md).  
 
----  
-
-### **Summary**  
-- **Azure Account**: Root level with default subscription.  
-- **Management Groups**: Organize subscriptions (optional but useful).  
-- **Subscriptions**: Billing and governance boundaries.  
-- **Resource Groups**: Logical containers for resources.  
-- **Resources**: Individual services (e.g., VMs, databases).  
-
 ---
 
-### **Knowledge Check**  
-Test your understanding with the following questions:  
+### **8. Knowledge Check**  
 
-1) **Management groups provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions.**  
+Test your understanding with these **AZ-900 style questions**:  
+
+1) **Management groups allow organizations to manage policies across multiple subscriptions.**  
    ☐ True  
    ☐ False  
 
-2) **Your company plans to migrate to Azure. The company has several departments, and each department's resources will be managed by a department administrator.**  
-   **What are two possible techniques to segment Azure for the departments?** *(Each correct answer presents a complete solution.)*  
+2) **Which two techniques can be used to segment Azure resources by department?** *(Select two)*  
    ☐ A. Multiple subscriptions  
    ☐ B. Multiple Azure Active Directory (Azure AD) directories  
    ☐ C. Multiple regions  
    ☐ D. Multiple resource groups  
 
-3) **A single Microsoft account can be used to manage multiple Azure subscriptions?**  
+3) **Can a single Microsoft account manage multiple Azure subscriptions?**  
    ☐ Yes  
    ☐ No  
 
-4) **Two Azure subscriptions can be merged into a single subscription?**  
+4) **Can two Azure subscriptions be merged into one?**  
    ☐ Yes  
    ☐ No  
 
-5) **You have several virtual machines in an Azure subscription, and you created a new subscription. Which of the following statements are correct?**  
-   ☐ VM cannot be moved to a new subscription. **(True/False)**  
-   ☐ VM can be moved to a new subscription. **(True/False)**  
-   ☐ All VMs can be moved if they are running in the same resource group. **(True/False)**  
-   ☐ VM can be moved if they run Windows Server 2016. **(True/False)**  
-   ☐ An Azure resource group can contain multiple Azure subscriptions. **(True/False)**  
-
-6) **If you assign permissions for a user to manage the resource group, the user can manage all the Azure resources in that resource group.**  
-   ☐ True  
-   ☐ False  
-
-7) **If you delete a resource group, all resources inside that resource group will be deleted.**  
-   ☐ True  
-   ☐ False  
-
----  
-
-### **Answers & Explanations**  
-
-1) **[✔] True**  
-   **Explanation**: **Management Groups** help organizations apply policies and compliance settings across multiple Azure subscriptions. This is useful for enforcing security and governance rules at scale.  
-
-2) **[✔] A. Multiple subscriptions** & **[✔] D. Multiple resource groups**  
-   **Explanation**: Using **multiple subscriptions** allows departments to have separate billing and access controls. **Resource Groups** help logically organize and manage related resources, making it easier for department administrators to manage their own resources.  
-
-3) **[✔] Yes**  
-   **Explanation**: A single Microsoft account can be used to manage **multiple Azure subscriptions**, which is useful for organizations with different billing needs or environments (e.g., development, testing, production).  
-
-4) **[✘] No**  
-   **Explanation**: Two Azure subscriptions **cannot be merged**. However, you can **move some resources** from one subscription to another. Each subscription remains independent.  
-
-5)  
-   **[✘] VM cannot be moved to a new subscription. (False)**  
-   **[✔] VM can be moved to a new subscription. (True)**  
-   **[✘] All VMs can be moved if they are running in the same resource group. (False)**  
-   **[✘] VM can be moved if they run Windows Server 2016. (False)**  
-   **[✘] An Azure resource group can contain multiple Azure subscriptions. (False)**  
-
-   **Explanation**:  
-   - VMs **can be moved** to a new subscription, but **there are restrictions** (e.g., the resource provider must support the move).  
-   - All VMs in a resource group **cannot always be moved together**; some resources may have dependencies that prevent them from being moved.  
-   - The OS version **does not affect** whether a VM can be moved.  
-   - **Resource Groups** belong to a **single subscription**; they **cannot span multiple subscriptions**.  
-
-6) **[✔] True**  
-   **Explanation**: If a user has **permissions at the Resource Group level**, they can manage **all resources** inside that group. Azure **Role-Based Access Control (RBAC)** lets you assign permissions at different levels (Subscription, Resource Group, or individual resource).  
-
-7) **[✔] True**  
-   **Explanation**: Deleting a **Resource Group** permanently deletes **all the resources inside it**, such as VMs, storage accounts, and databases. **Be cautious** when deleting a Resource Group, as this action **cannot be undone**.  
+5) **Which of the following statements are correct?**  
+   - ☐ VMs cannot be moved to a new subscription. (True/False)  
+   - ☐ VMs can be moved to a new subscription. (True/False)  
+   - ☐ An Azure resource group can contain multiple Azure subscriptions. (True/False)  
 
 ---
+
+### **9. Summary**  
+
+- **Azure Account**: Root level with a **default subscription**.  
+- **Management Groups**: Organize **multiple subscriptions** and enforce policies **at scale**.  
+- **Subscriptions**: Define **billing & governance boundaries**.  
+- **Resource Groups**: **Logical containers** for Azure resources.  
+- **Resources**: Individual Azure services (**VMs, databases, storage**).  
+- **Policy Inheritance**: **Permissions and policies trickle down** the hierarchy **unless overridden**.
