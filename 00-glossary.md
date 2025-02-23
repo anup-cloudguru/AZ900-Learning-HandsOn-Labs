@@ -139,6 +139,43 @@
 
 ---  
 
+## 🌐 **Azure Portal & Cloud Shell (NEW from Chapter 4)**  
+
+- **Azure Portal**  
+  A **web-based UI** for managing Azure resources, accessible via [portal.azure.com](https://portal.azure.com).  
+
+- **Azure Free Trial**  
+  A **$200 credit for 30 days** trial with **12 months of select free services**.  
+
+- **Microsoft Account**  
+  An account (e.g., Outlook, Hotmail) required to access Azure services.  
+
+- **Navigation Menu**  
+  The **left-side menu** in the Azure Portal that provides access to services like Virtual Machines, Storage, and Subscriptions.  
+
+- **Resource Groups**  
+  Logical containers that organize Azure services.  
+
+- **Search Bar**  
+  A **quick-access search tool** in the Azure Portal to find resources, services, and settings.  
+
+- **Dashboard**  
+  A **customizable** interface in the Azure Portal for monitoring and managing resources.  
+
+- **Azure Cloud Shell**  
+  A **browser-based command-line interface** for managing Azure resources using Bash or PowerShell.  
+
+- **Azure CLI**  
+  A command-line tool that allows users to manage Azure resources programmatically.  
+
+- **Subscriptions**  
+  Azure **billing and access control units** that define pricing and resource limits.  
+
+- **Azure Active Directory (AAD)**  
+  Microsoft's cloud-based **identity and access management service** used for authentication and authorization.  
+
+---
+
 ## ☁️ **Azure & Cloud Services**  
 
 - **Azure**  
@@ -148,4 +185,4 @@
   A cloud service that connects on-premises networks to Azure securely.  
 
 - **Azure Arc**  
-  A hybrid cloud management tool that allows managing on-premises, multi-cloud, and edge environments from Azure.
+  A hybrid cloud management tool that allows managing on-premises, multi-cloud, and edge environments from Azure.  
