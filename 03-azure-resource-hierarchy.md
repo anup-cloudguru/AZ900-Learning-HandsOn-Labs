@@ -108,6 +108,12 @@ Permissions and policies applied at higher levels in the hierarchy **trickle dow
 
 ---
 
+### **Essential Cloud & Azure Terms**  
+
+For a comprehensive list of key cloud and Azure terms, please refer to the [Essential Cloud & Azure Terms](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/blob/main/00-glossary.md).  
+
+---  
+
 ### **Summary**  
 - **Azure Account**: Root level with default subscription.  
 - **Management Groups**: Organize subscriptions (optional but useful).  
