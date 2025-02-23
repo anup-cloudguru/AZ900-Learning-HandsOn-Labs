@@ -56,19 +56,11 @@ Azure provides **multiple ways** to create resources:
 
 ---
 
-### **3. Hands-On Project: Azure Account Setup**  
-
-To gain **practical experience**, follow the **step-by-step hands-on project** available in our **Projects_HandsOn** folder:  
+### **3. Practical Learning**  
+For hands-on practice, follow the **step-by-step guide** in our **Projects_HandsOn** folder:  
 
 📌 **Project-1: Azure Account Setup & Portal Exploration**  
 🔗 [View the Full Project Guide](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/tree/main/Projects_HandsOn/Project-1_Azure-Account-Setup)  
-
-**Hands-on Activities Covered:**  
-✅ **Sign up for an Azure account** (with screenshots).  
-✅ **Explore the Azure Portal & Navigation Menu**.  
-✅ **Customize your Azure Dashboard**.  
-✅ **Set up Budget Alerts (Cost Management)**.  
-✅ **Document your findings & share your progress**.  
 
 ---
 
