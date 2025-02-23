@@ -51,11 +51,19 @@ Azure Account
 │  
 └── Management Groups (Optional)  
     │  
-    └── Subscriptions  
-        │  
-        └── Resource Groups  
-            │  
-            └── Resources (VM, DB, etc.)  
+    ├── Subscription 1 (e.g., Dev)  
+    │   ├── Resource Group A  
+    │   │   ├── Virtual Machine 1  
+    │   │   ├── SQL Database 1  
+    │   │   └── Storage Account 1  
+    │   ├── Resource Group B  
+    │       ├── Virtual Machine 2  
+    │       ├── Web App 1  
+    │       └── Load Balancer 1  
+    │  
+    └── Subscription 2 (e.g., Prod)  
+        ├── Resource Group C  
+        └── Resource Group D    
 ```  
 
 ---
