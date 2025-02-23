@@ -50,6 +50,21 @@
 - **Multi-Tenancy**  
   A cloud architecture where multiple customers share the same computing resources securely.  
 
+- **Role-Based Access Control (RBAC)**  
+  A system for managing user permissions in Azure at different levels (Subscription, Resource Group, or Resource level).  
+
+- **Azure Policy**  
+  A service that enforces security, compliance, and cost control rules (e.g., denying public IP creation).  
+
+- **Least Privilege Principle**  
+  A security practice where users are granted the minimum level of access required to perform their tasks.  
+
+- **Azure Lock (Read-Only / Delete Lock)**  
+  A feature that prevents accidental deletion or modification of critical resources.  
+
+- **Deny Assignments**  
+  A security feature that explicitly blocks actions, even if a user has higher-level permissions.  
+
 ---  
 
 ## ⚡ **Scalability & Performance**  
@@ -96,6 +111,34 @@
 
 ---  
 
+## 🏢 **Azure Resource Hierarchy**  
+
+- **Azure Account**  
+  The root-level entity in Azure, linked to a Microsoft or organizational account.  
+
+- **Management Groups**  
+  A container used to organize multiple subscriptions and enforce policies at scale.  
+
+- **Subscription**  
+  A billing and access boundary for Azure resources. Each Azure Account can have multiple subscriptions.  
+
+- **Resource Group**  
+  A logical container for grouping Azure resources. Resources in a group share the same lifecycle.  
+
+- **Resources**  
+  Individual Azure services such as Virtual Machines, Storage Accounts, Web Apps, and Databases.  
+
+- **Policy Inheritance**  
+  Security settings, access control, and governance rules applied at higher levels (e.g., Management Groups) trickle down to lower levels (e.g., Subscriptions, Resource Groups).  
+
+- **Azure Resource Move**  
+  Some Azure resources can be moved between **Resource Groups** or **Subscriptions**, but certain services have restrictions (e.g., Azure SQL Databases cannot be moved).  
+
+- **Billing Scope**  
+  Subscriptions define the billing scope—costs are tracked per subscription.  
+
+---  
+
 ## ☁️ **Azure & Cloud Services**  
 
 - **Azure**  
@@ -105,6 +148,4 @@
   A cloud service that connects on-premises networks to Azure securely.  
 
 - **Azure Arc**  
-  A hybrid cloud management tool that allows managing on-premises, multi-cloud, and edge environments from Azure.  
-
----
+  A hybrid cloud management tool that allows managing on-premises, multi-cloud, and edge environments from Azure.
