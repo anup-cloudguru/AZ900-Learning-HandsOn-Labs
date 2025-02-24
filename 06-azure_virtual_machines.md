@@ -110,7 +110,7 @@ Test your understanding with these AZ-900-style questions:
 ### **7. Hands-On Project: Deploy an Azure Virtual Machine**  
 
 📌 **Project-2: Azure Virtual Machine Deployment**  
-🔗 [View the Full Project Guide](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/tree/main/Projects_HandsOn/Project-1_Azure-Account-Setup.md)  
+🔗 [View the Full Project Guide](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/tree/main/Projects_HandsOn/Project-2_Deploying-Azure-VM.md)  
 
 **Hands-on Activities Covered:**  
 ✅ **Create an Azure Virtual Machine** (Linux & Windows).  
