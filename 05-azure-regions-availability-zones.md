@@ -2,7 +2,7 @@
 
 Azure organizes its global infrastructure into **regions** and **availability zones** to ensure **high availability, fault tolerance, and disaster recovery** for its services.  
 
----  
+---
 
 ### **1. Understanding Azure’s Global Infrastructure**  
 
@@ -52,68 +52,13 @@ Azure's infrastructure is structured as follows:
 
 ---
 
-### **5. Knowledge Check**  
-
-Test your understanding with the following AZ-900-style questions:  
-
-1) **Which type of failure can Availability Zones protect against?**  
-   ☐ A. A physical server failure  
-   ☐ B. An Azure region failure  
-   ☐ C. A storage failure  
-   ☐ D. An Azure data center failure  
-
-2) **Are Availability Zones available in all Azure regions?**  
-   ☐ Yes  
-   ☐ No  
-
-3) **Can only Windows VMs be created in Availability Zones?**  
-   ☐ Yes  
-   ☐ No  
-
-4) **Do Availability Zones replicate data across multiple regions?**  
-   ☐ Yes  
-   ☐ No  
-
-5) **Can Availability Zones protect VMs from a data center failure?**  
-   ☐ Yes  
-   ☐ No  
-
-6) **An Azure region:**  
-   ☐ A. Contains one or more data centers connected by a low-latency network  
-   ☐ B. Is found in each country where Microsoft has an office  
-   ☐ C. Exists in every country in Europe and the Americas  
-   ☐ D. Contains data centers connected by a high-latency network  
-
-7) **Do Availability Zones protect against region-wide failures?**  
-   ☐ Yes  
-   ☐ No  
+### **5. Summary**  
+✔ **Data Centers** → Physical infrastructure housing Azure resources.  
+✔ **Availability Zones** → Provide **fault isolation** within a region.  
+✔ **Azure Regions** → Geographic areas containing multiple **availability zones**.  
+✔ **Region Pairs** → Disaster recovery mechanism for **region-wide failures**.  
 
 ---
 
-### **6. Answers & Explanations**  
-
-1) **[✔] D. An Azure data center failure**  
-   **Explanation**: Availability Zones protect against failures within a **single data center** by replicating resources across multiple zones within the same region.  
-
-2) **[✘] No**  
-   **Explanation**: Not all Azure regions support Availability Zones. Only select regions have this feature.  
-
-3) **[✘] No**  
-   **Explanation**: Both **Windows** and **Linux** VMs can be created in Availability Zones.  
-
-4) **[✘] No**  
-   **Explanation**: Availability Zones replicate resources **within the same region**, not across multiple regions. For cross-region replication, use **Azure Region Pairs**.  
-
-5) **[✔] Yes**  
-   **Explanation**: Availability Zones protect VMs from **data center failures** by replicating them across multiple zones within the same region.  
-
-6) **[✔] A. Contains one or more data centers connected by a low-latency network**  
-   **Explanation**: Azure regions consist of multiple data centers connected by a **low-latency network** to ensure fast communication between resources.  
-
-7) **[✘] No**  
-   **Explanation**: Availability Zones protect against failures **within a region** (e.g., data center failure). For **region-wide failures**, use **Azure Region Pairs**.  
-
----
-
-### **7. Next Steps**  
+### **6. Next Steps**  
 *"In **Chapter 6: Azure Virtual Machines**, we will explore how to deploy, manage, and optimize virtual machines in Azure."* 🚀
