@@ -49,6 +49,17 @@ Welcome to the **AZ-900 Learning & Hands-On Labs** repository! This repository p
 
 ---
 
+## 🎓 **Certification Achieved**  
+✅ Successfully cleared **Microsoft Certified: Azure Fundamentals (AZ-900)** 🎉  
+
+📜 **Certificate Preview:**  
+![AZ-900 Certificate](Certificate/AZ-900_Certificate.png)  
+
+📥 **Download Certificate (PDF):**  
+🔗 [AZ-900 Certificate PDF](Certificate/AZ-900_Certificate.pdf)  
+
+---
+
 ## 🤝 **Contributing**  
 We welcome contributions! If you’d like to improve this repository:  
 - Fix typos, improve explanations, or add diagrams  
