@@ -71,7 +71,7 @@ Azure Functions offers **three pricing/hosting models**:
 
 ### **6. Hands-On Project: Deploying Azure Functions**  
 
-📌 **Project-3: Deploying Azure Functions**  
+📌 **Project-4: Deploying Azure Functions**  
 🔗 *[View Full Project Guide](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/tree/main/Projects_HandsOn/Project-4_Azure-Functions.md)*  
 
 💻 **Hands-on Activities Covered:**  
