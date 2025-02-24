@@ -2,7 +2,7 @@
 
 *A collection of essential cloud and Azure computing terms to help understand fundamental concepts.*  
 
----  
+---
 
 ## 📌 **Cloud Concepts**  
 
@@ -18,7 +18,7 @@
 - **SaaS (Software as a Service)**  
   A cloud service model where applications are hosted and managed by a provider and accessed via the internet.  
 
----  
+---
 
 ## 💰 **Cost Management**  
 
@@ -40,7 +40,7 @@
 - **Total Cost of Ownership (TCO)**  
   A financial estimate that includes both direct and indirect costs of owning and operating IT infrastructure.  
 
----  
+---
 
 ## 🔐 **Security & Responsibility**  
 
@@ -65,7 +65,7 @@
 - **Deny Assignments**  
   A security feature that explicitly blocks actions, even if a user has higher-level permissions.  
 
----  
+---
 
 ## ⚡ **Scalability & Performance**  
 
@@ -81,7 +81,7 @@
 - **Elasticity**  
   The capability of automatically scaling resources up or down to match demand.  
 
----  
+---
 
 ## 🏗️ **Cloud Migration & Deployment**  
 
@@ -109,7 +109,26 @@
 - **Load Balancer**  
   A service that distributes traffic across multiple resources to ensure availability and performance.  
 
----  
+---
+
+## 🌍 **Azure Global Infrastructure (NEW from Chapter 5)**  
+
+- **Azure Region**  
+  A **geographical area** where Microsoft has deployed multiple data centers for hosting cloud services.  
+
+- **Availability Zones**  
+  A set of **physically separate data centers** within an Azure region, providing **fault tolerance and redundancy**.  
+
+- **Region Pair**  
+  Two Azure regions **paired together** for disaster recovery and replication (e.g., **East US & West US**).  
+
+- **Data Center**  
+  A **physical facility** that hosts Azure’s compute, storage, and networking resources.  
+
+- **Low-Latency Network**  
+  A **high-speed network** connecting Azure data centers within regions to ensure **fast communication** between resources.  
+
+---
 
 ## 🏢 **Azure Resource Hierarchy**  
 
@@ -136,43 +155,6 @@
 
 - **Billing Scope**  
   Subscriptions define the billing scope—costs are tracked per subscription.  
-
----  
-
-## 🌐 **Azure Portal & Cloud Shell (NEW from Chapter 4)**  
-
-- **Azure Portal**  
-  A **web-based UI** for managing Azure resources, accessible via [portal.azure.com](https://portal.azure.com).  
-
-- **Azure Free Trial**  
-  A **$200 credit for 30 days** trial with **12 months of select free services**.  
-
-- **Microsoft Account**  
-  An account (e.g., Outlook, Hotmail) required to access Azure services.  
-
-- **Navigation Menu**  
-  The **left-side menu** in the Azure Portal that provides access to services like Virtual Machines, Storage, and Subscriptions.  
-
-- **Resource Groups**  
-  Logical containers that organize Azure services.  
-
-- **Search Bar**  
-  A **quick-access search tool** in the Azure Portal to find resources, services, and settings.  
-
-- **Dashboard**  
-  A **customizable** interface in the Azure Portal for monitoring and managing resources.  
-
-- **Azure Cloud Shell**  
-  A **browser-based command-line interface** for managing Azure resources using Bash or PowerShell.  
-
-- **Azure CLI**  
-  A command-line tool that allows users to manage Azure resources programmatically.  
-
-- **Subscriptions**  
-  Azure **billing and access control units** that define pricing and resource limits.  
-
-- **Azure Active Directory (AAD)**  
-  Microsoft's cloud-based **identity and access management service** used for authentication and authorization.  
 
 ---
 
