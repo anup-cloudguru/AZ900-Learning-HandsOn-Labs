@@ -116,7 +116,6 @@ Test your understanding with these AZ-900-style questions:
 ✅ **Create an Azure Virtual Machine** (Linux & Windows).  
 ✅ **Access VM via SSH (Linux) or RDP (Windows).**  
 ✅ **Configure NSG Rules (Allow SSH/RDP).**  
-✅ **Attach Additional Storage (Data Disks).**  
 
 ---  
 
