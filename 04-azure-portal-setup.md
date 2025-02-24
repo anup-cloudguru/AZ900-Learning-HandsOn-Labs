@@ -60,7 +60,7 @@ Azure provides **multiple ways** to create resources:
 For hands-on practice, follow the **step-by-step guide** in our **Projects_HandsOn** folder:  
 
 📌 **Project-1: Azure Account Setup & Portal Exploration**  
-🔗 [View the Full Project Guide](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/tree/main/Projects_HandsOn/Project-1_Azure-Account-Setup)  
+🔗 [View the Full Project Guide](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/tree/main/Projects_HandsOn/Project-1_Azure-Account-Setup.md)  
 
 ---
 
