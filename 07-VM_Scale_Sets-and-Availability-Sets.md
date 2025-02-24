@@ -43,7 +43,7 @@ An **Availability Set** ensures that VMs deployed within a data center are distr
 
 ### **4. Hands-On Project: Deploy VM Scale Sets**  
 📌 **Project-3: Deploying Azure VM Scale Sets**  
-🔗 [View the Full Project Guide](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/tree/main/Projects_HandsOn/Project-3_Azure-VMSS.md)  
+🔗 [View the Full Project Guide](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/blob/main/Projects_HandsOn/Project-2_Deploying-Scaling-Azure-VMs.md)  
 
 **Hands-on Activities Covered:**  
 ✅ **Create a Virtual Machine Scale Set (VMSS)**  
