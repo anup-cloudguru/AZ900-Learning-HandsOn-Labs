@@ -75,7 +75,6 @@ This repository is licensed under the **MIT License**. See [LICENSE](LICENSE) fo
 ## 🎯 **Next Steps**  
 - 🌐 Explore **Microsoft Learn** modules for AZ-900  
 - 📝 Take practice tests for **certification readiness**  
-- 📢 Share your progress using `#AZ900WithPiyush` on **LinkedIn/Twitter**  
 
 ---
 
