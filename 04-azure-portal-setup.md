@@ -65,12 +65,12 @@ For hands-on practice, follow the **step-by-step guide** in our **Projects_Hands
 ---
 
 ### **4. Summary**  
-- **Free Trial**: Azure provides **$200 credits for 30 days** and **12 months of free services**.  
-- **Azure Portal**: A **web-based UI** for managing resources.  
-- **Resource Groups**: Logical containers for **organizing Azure services**.  
-- **Cloud Shell**: A command-line interface for **managing Azure resources without local installations**.  
+✔ **Free Trial** → Azure provides **$200 credits for 30 days** and **12 months of free services**.  
+✔ **Azure Portal** → A **web-based UI** for managing resources.  
+✔ **Resource Groups** → Logical containers for **organizing Azure services**.  
+✔ **Cloud Shell** → A command-line interface for **managing Azure resources without local installations**.  
 
 ---
 
 ### **5. Next Steps**  
-*"In **Chapter 5: Azure Regions and Availability Zones**, we will explore how Azure’s global infrastructure is designed to provide **high availability, scalability, and fault tolerance**. We’ll also discuss best practices for choosing the right region for your workloads."*  
+*"In **Chapter 5: Azure Regions and Availability Zones**, we will explore how Azure’s global infrastructure is designed to provide **high availability, scalability, and fault tolerance**. We’ll also discuss best practices for choosing the right region for your workloads."*
