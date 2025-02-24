@@ -117,7 +117,6 @@ Test your understanding with these AZ-900-style questions:
 ✅ **Access VM via SSH (Linux) or RDP (Windows).**  
 ✅ **Configure NSG Rules (Allow SSH/RDP).**  
 ✅ **Attach Additional Storage (Data Disks).**  
-✅ **Monitor VM Performance using Azure Monitor.**  
 
 ---  
 
