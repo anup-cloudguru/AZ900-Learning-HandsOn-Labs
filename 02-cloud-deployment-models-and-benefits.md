@@ -47,12 +47,12 @@ Cloud deployment models define how cloud services are hosted and accessed. Each 
 ### **2. Comparison of Cloud Deployment Models**  
 
 | **Feature**       | **Public Cloud**                  | **Private Cloud**                | **Hybrid Cloud**                |  
-|--------------------|-----------------------------------|----------------------------------|---------------------------------|  
-| **Cost**           | Pay-as-you-go, no CapEx           | High CapEx, ongoing maintenance  | Combines CapEx + OpEx           |  
-| **Control**        | Limited (shared infrastructure)   | Full (dedicated infrastructure)  | Partial (mix of both)           |  
-| **Scalability**    | Instant scaling                   | Limited by hardware              | Scalable for specific workloads |  
-| **Security**       | Shared responsibility             | Enhanced (isolated resources)    | Flexible (data placement)       |  
-| **Best For**       | Startups, general-purpose apps    | Regulated industries (e.g., healthcare) | Bursting, disaster recovery |  
+|-------------------|----------------------------------|----------------------------------|---------------------------------|  
+| **Cost**         | Pay-as-you-go, no CapEx         | High CapEx, ongoing maintenance  | Combines CapEx + OpEx           |  
+| **Control**      | Limited (shared infrastructure) | Full (dedicated infrastructure)  | Partial (mix of both)           |  
+| **Scalability**  | Instant scaling                 | Limited by hardware              | Scalable for specific workloads |  
+| **Security**     | Shared responsibility           | Enhanced (isolated resources)    | Flexible (data placement)       |  
+| **Best For**     | Startups, general-purpose apps  | Regulated industries (e.g., healthcare) | Bursting, disaster recovery |  
 
 ---  
 
@@ -89,61 +89,12 @@ Cloud deployment models define how cloud services are hosted and accessed. Each 
 
 ---  
 
-### **4. Knowledge Check**  
-
-Test your understanding with these AZ-900 style questions:  
-
-1) **A company wants to host a customer database with strict compliance requirements. Which deployment model should they use?**  
-   ☐ A. Public Cloud  
-   ☐ B. Private Cloud  
-   ☐ C. Hybrid Cloud  
-
-2) **Which benefit allows an e-commerce site to handle 10x traffic during holiday sales?**  
-   ☐ A. Fault Tolerance  
-   ☐ B. Elasticity  
-   ☐ C. TCO  
-
-3) **Hybrid Cloud is best suited for which scenario?**  
-   ☐ A. Storing public website content  
-   ☐ B. Running a legacy app on-premises while using Azure for backups  
-   ☐ C. Hosting a small blog  
-
-4) **Vertical scaling always requires downtime.**  
-   ☐ True  
-   ☐ False  
-
-5) **Which tool helps estimate monthly Azure VM costs?**  
-   ☐ A. Azure Arc  
-   ☐ B. Azure Pricing Calculator  
-   ☐ C. TCO Calculator  
-
----  
-
-### **5. Answers & Explanations**  
-
-1) **[✔] B. Private Cloud**  
-   *Explanation*: Private clouds offer isolated infrastructure for compliance-sensitive data.  
-
-2) **[✔] B. Elasticity**  
-   *Explanation*: Elasticity enables automatic scaling to handle traffic spikes.  
-
-3) **[✔] B. Running a legacy app on-premises while using Azure for backups**  
-   *Explanation*: Hybrid Cloud integrates on-premises and cloud resources.  
-
-4) **[✔] True**  
-   *Explanation*: Vertical scaling (e.g., resizing a VM) requires restarting the resource.  
-
-5) **[✔] B. Azure Pricing Calculator**  
-   *Explanation*: This tool estimates costs for specific Azure services.  
-
----  
-
-### **6. Essential Cloud & Azure Terms**  
+### **4. Essential Cloud & Azure Terms**  
 
 For a comprehensive list of key cloud and Azure terms, please refer to the [Essential Cloud & Azure Terms](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/blob/main/00-glossary.md).  
 
 ---  
 
-### **7. Next Steps**  
+### **5. Next Steps**  
 
-In **Chapter 3**, we will explore the fundamentals of Azure Compute Services, covering Virtual Machines, Containers, and Serverless Computing.
+In **Chapter 3**, we will explore the fundamentals of **Azure Resource Hierarchy**, including **Management Groups, Subscriptions, Resource Groups, and Resources**, to better understand how to organize and manage Azure environments.
