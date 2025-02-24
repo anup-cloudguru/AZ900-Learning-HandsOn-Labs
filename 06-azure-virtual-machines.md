@@ -9,7 +9,7 @@ Azure Virtual Machines (VMs) are **Infrastructure-as-a-Service (IaaS)** offering
 ✅ **Pay-as-You-Go** → Pay only for compute time and storage used.  
 ✅ **High Availability** → Ensure reliability with Availability Zones, Availability Sets, or Scale Sets.  
 
----  
+---
 
 ### **2. How to Create an Azure Virtual Machine**  
 
@@ -41,7 +41,7 @@ Follow these steps to **provision an Azure VM using the Azure Portal**:
 #### **Step 6: Review & Deploy**  
 - Validate settings and **deploy the VM**.  
 
----  
+---
 
 ### **3. Key Benefits of Azure Virtual Machines**  
 
@@ -52,62 +52,14 @@ Follow these steps to **provision an Azure VM using the Azure Portal**:
 | **Scalability**      | Scale resources up/down based on demand.                       |  
 | **Disaster Recovery**| Replicate VMs across **Availability Zones** for redundancy.    |  
 
----  
+---
 
 ### **4. Real-World Example**  
 💡 **Example**: A **gaming company** provisions **high-performance VMs** for GPU-intensive gaming. After gaming sessions, the company **deallocates the VM**, reducing costs significantly.  
 
----  
+---
 
-### **5. Knowledge Check**  
-Test your understanding with these AZ-900-style questions:  
-
-1) **You can create a resource group inside another resource group.**  
-   ☐ True  
-   ☐ False  
-
-2) **A VM can belong to multiple resource groups.**  
-   ☐ True  
-   ☐ False  
-
-3) **A resource group can contain resources from multiple Azure regions.**  
-   ☐ True  
-   ☐ False  
-
-4) **A VM should be part of only one resource group.**  
-   ☐ True  
-   ☐ False  
-
-5) **How can you ensure that VMs remain available if a single data center fails?** *(Select Two)*  
-   ☐ A. Deploy VMs across two or more availability zones.  
-   ☐ B. Deploy VMs across two or more resource groups.  
-   ☐ C. Deploy VMs in a Scale Set.  
-   ☐ D. Deploy VMs across two or more regions.  
-
----  
-
-### **6. Answers & Explanations**  
-
-1) **[✘] False**  
-   - **Explanation**: **Resource groups cannot be nested**. Each resource group exists independently.  
-
-2) **[✘] False**  
-   - **Explanation**: A **VM can belong to only one resource group** at a time.  
-
-3) **[✔] True**  
-   - **Explanation**: A **resource group** can contain **resources from multiple regions**.  
-
-4) **[✔] True**  
-   - **Explanation**: A VM **must be assigned to a single resource group**.  
-
-5) **[✔] A. Deploy VMs across multiple availability zones** & **[✔] D. Deploy VMs across multiple regions**  
-   - **Explanation**:  
-     - **A**: Availability Zones protect against **data center failures** within a region.  
-     - **D**: Deploying to **multiple regions** ensures availability during **region-wide outages**.  
-
----  
-
-### **7. Hands-On Project: Deploy an Azure Virtual Machine**  
+### **5. Hands-On Project: Deploy an Azure Virtual Machine**  
 
 📌 **Project-2: Azure Virtual Machine Deployment**  
 🔗 [View the Full Project Guide](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/tree/main/Projects_HandsOn/Project-2_Deploying-Azure-VM.md)  
@@ -117,14 +69,14 @@ Test your understanding with these AZ-900-style questions:
 ✅ **Access VM via SSH (Linux) or RDP (Windows).**  
 ✅ **Configure NSG Rules (Allow SSH/RDP).**  
 
----  
+---
 
-### **8. Summary**  
+### **6. Summary**  
 ✔ **Azure Virtual Machines** → Provide full OS control in an IaaS environment.  
 ✔ **Resource Groups** → Logical containers for organizing VMs.  
 ✔ **Availability Zones** → Protect against data center failures.  
 
----  
+---
 
-### **9. Next Steps**  
-*"In **Chapter 7: Azure Virtual Machine Scale Sets & Availability Sets**, we will explore how to scale Azure VMs efficiently and ensure high availability."*
+### **7. Next Steps**  
+*"In **Chapter 7: Azure Virtual Machine Scale Sets & Availability Sets**, we will explore how to scale Azure VMs efficiently and ensure high availability."* 🚀
