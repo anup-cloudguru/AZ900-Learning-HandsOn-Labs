@@ -16,7 +16,7 @@ Azure follows a **top-down approach**, where policies and access control **casca
 
 In this chapter, we’ll explore **each component** in detail and **how they interact**.  
 
----
+---  
 
 ### **2. Components of Azure Resource Hierarchy**  
 
@@ -27,7 +27,7 @@ In this chapter, we’ll explore **each component** in detail and **how they int
   - **Automatically creates a default subscription** upon signup.  
 - **Use Case**: A company’s **Azure account** manages **all cloud resources** for its organization.  
 
----
+---  
 
 #### **2.2 Management Groups**  
 - **Definition**: Containers used to **organize multiple subscriptions** for better governance.  
@@ -37,7 +37,7 @@ In this chapter, we’ll explore **each component** in detail and **how they int
   - **Policy Inheritance**: Permissions applied at the **root level** cascade down to **child subscriptions**.  
 - **Use Case**: Group subscriptions by **department** (e.g., Finance, IT).  
 
----
+---  
 
 #### **2.3 Subscriptions**  
 - **Definition**: Define **billing and governance boundaries** for Azure resources.  
@@ -49,7 +49,7 @@ In this chapter, we’ll explore **each component** in detail and **how they int
   - **Subscription 1**: "Sales"  
   - **Subscription 2**: "IT"  
 
----
+---  
 
 #### **2.4 Resource Groups**  
 - **Definition**: **Logical containers** that group related Azure resources.  
@@ -61,7 +61,7 @@ In this chapter, we’ll explore **each component** in detail and **how they int
   - Separate **environments** (Dev, UAT, Prod).  
   - Group resources by **application** (e.g., Web App + Database).  
 
----
+---  
 
 #### **2.5 Resources**  
 - **Definition**: Individual services deployed in Azure (e.g., **VMs, storage accounts, web apps**).  
@@ -69,7 +69,7 @@ In this chapter, we’ll explore **each component** in detail and **how they int
   - The **smallest unit** in the Azure hierarchy.  
   - Each resource must belong to **a single resource group**.  
 
----
+---  
 
 ### **3. Azure Resource Hierarchy Visualization**  
 
@@ -93,7 +93,7 @@ Azure Account
         └── Resource Group D  
 ```  
 
----
+---  
 
 ### **4. Permissions & Policy Inheritance**  
 
@@ -107,7 +107,7 @@ Azure follows a **top-down approach** for **permissions and policies**:
 
 💡 **Example**: A **"deny public IP creation" policy** applied at the **subscription level** prevents **all resource groups under it** from creating public IPs.  
 
----
+---  
 
 ### **5. Key Use Cases**  
 
@@ -123,7 +123,7 @@ Azure follows a **top-down approach** for **permissions and policies**:
 - Assign **permissions** at the **management group level** to streamline access control.  
 - Enforce **compliance policies** (e.g., **encryption standards**) across **subscriptions**.  
 
----
+---  
 
 ### **6. Real-World Example: Contoso Corporation**  
 
@@ -135,48 +135,14 @@ Contoso Corporation uses **Azure Resource Hierarchy** as follows:
   - **Resource Groups**:  
     - Under **"IT-Dev" subscription**: "WebApp-Dev," "Database-Dev."  
 
----
+---  
 
 ### **7. Essential Cloud & Azure Terms**  
 
 For a comprehensive list of key cloud and Azure terms, please refer to the [Essential Cloud & Azure Terms](https://github.com/anup-cloudguru/AZ900-Learning-HandsOn-Labs/blob/main/00-glossary.md).  
 
----
+---  
 
-### **8. Knowledge Check**  
+### **8. Next Steps**  
 
-Test your understanding with these **AZ-900 style questions**:  
-
-1) **Management groups allow organizations to manage policies across multiple subscriptions.**  
-   ☐ True  
-   ☐ False  
-
-2) **Which two techniques can be used to segment Azure resources by department?** *(Select two)*  
-   ☐ A. Multiple subscriptions  
-   ☐ B. Multiple Azure Active Directory (Azure AD) directories  
-   ☐ C. Multiple regions  
-   ☐ D. Multiple resource groups  
-
-3) **Can a single Microsoft account manage multiple Azure subscriptions?**  
-   ☐ Yes  
-   ☐ No  
-
-4) **Can two Azure subscriptions be merged into one?**  
-   ☐ Yes  
-   ☐ No  
-
-5) **Which of the following statements are correct?**  
-   - ☐ VMs cannot be moved to a new subscription. (True/False)  
-   - ☐ VMs can be moved to a new subscription. (True/False)  
-   - ☐ An Azure resource group can contain multiple Azure subscriptions. (True/False)  
-
----
-
-### **9. Summary**  
-
-- **Azure Account**: Root level with a **default subscription**.  
-- **Management Groups**: Organize **multiple subscriptions** and enforce policies **at scale**.  
-- **Subscriptions**: Define **billing & governance boundaries**.  
-- **Resource Groups**: **Logical containers** for Azure resources.  
-- **Resources**: Individual Azure services (**VMs, databases, storage**).  
-- **Policy Inheritance**: **Permissions and policies trickle down** the hierarchy **unless overridden**.
+In **Chapter 4**, we will explore **Azure Portal Navigation and Free Account Setup**, providing a step-by-step guide on creating a free Azure account and familiarizing yourself with the Azure Portal.
