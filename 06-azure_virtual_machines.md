@@ -123,7 +123,6 @@ Test your understanding with these AZ-900-style questions:
 ✔ **Azure Virtual Machines** → Provide full OS control in an IaaS environment.  
 ✔ **Resource Groups** → Logical containers for organizing VMs.  
 ✔ **Availability Zones** → Protect against data center failures.  
-✔ **Scaling** → Use VM Scale Sets for auto-scaling.  
 
 ---  
 
